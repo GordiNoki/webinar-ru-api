@@ -1,0 +1,24 @@
+{
+  "name": "@gordinoki/webinar-ru-api",
+  "author": "GordiNoki (GeN)",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "/dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@types/tough-cookie": "^4.0.2",
+    "@types/engine.io-client": "^3.1.5",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "engine.io-client": "^3.5.2",
+    "tough-cookie": "^4.1.2"
+  }
+}

@@ -1,0 +1,15 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.WebinarEventUserListOnline = exports.WebinarEventPresentationUpdate = exports.WebinarEventMessageAdd = exports.WebinarEventEventSessionStart = exports.WebinarEventEventSessionStop = exports.WebinarEventCourseTaskUpdate = void 0;
+var WebinarEventCourseTaskUpdate_1 = require("./Events/WebinarEventCourseTaskUpdate");
+Object.defineProperty(exports, "WebinarEventCourseTaskUpdate", { enumerable: true, get: function () { return WebinarEventCourseTaskUpdate_1.WebinarEventCourseTaskUpdate; } });
+var WebinarEventEventSessionStop_1 = require("./Events/WebinarEventEventSessionStop");
+Object.defineProperty(exports, "WebinarEventEventSessionStop", { enumerable: true, get: function () { return WebinarEventEventSessionStop_1.WebinarEventEventSessionStop; } });
+var WebinarEventEventSessionStart_1 = require("./Events/WebinarEventEventSessionStart");
+Object.defineProperty(exports, "WebinarEventEventSessionStart", { enumerable: true, get: function () { return WebinarEventEventSessionStart_1.WebinarEventEventSessionStart; } });
+var WebinarEventMessageAdd_1 = require("./Events/WebinarEventMessageAdd");
+Object.defineProperty(exports, "WebinarEventMessageAdd", { enumerable: true, get: function () { return WebinarEventMessageAdd_1.WebinarEventMessageAdd; } });
+var WebinarEventPresentationUpdate_1 = require("./Events/WebinarEventPresentationUpdate");
+Object.defineProperty(exports, "WebinarEventPresentationUpdate", { enumerable: true, get: function () { return WebinarEventPresentationUpdate_1.WebinarEventPresentationUpdate; } });
+var WebinarEventUserListOnline_1 = require("./Events/WebinarEventUserListOnline");
+Object.defineProperty(exports, "WebinarEventUserListOnline", { enumerable: true, get: function () { return WebinarEventUserListOnline_1.WebinarEventUserListOnline; } });
